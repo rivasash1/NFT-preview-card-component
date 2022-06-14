@@ -1,0 +1,127 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+}
+
+h1 {
+  font-size: 20px;
+  color: hsl(0, 0%, 100%);
+}
+
+/* Change color of Equilibrium #3429 */
+h1:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+hr {
+  border-top: 1px solid hsl(215, 32%, 27%);
+}
+
+.card-border {
+  background-color: hsl(216, 50%, 16%);
+  display: flex;
+  flex-direction: column;
+  max-width: 375px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4%;
+}
+
+.card-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6%;
+}
+
+.card-box:hover {
+  /* Change color of equilibrium photo*/
+  background-color: hsl(178, 100%, 50%);
+  /* make icon-view image appear when hovering over image*/
+  background-image: url(images/icon-view.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 4%;
+  padding: 0%;
+  height: 330px;
+  width: 330px;
+  margin: 5%;
+}
+
+/* Opacity of background color over photo and make cursor a pointer*/
+.opacity:hover {
+  cursor: pointer;
+  opacity: 30%;
+}
+
+/* Photo */
+.opacity {
+  border-radius: 3%;
+  width: 100%;
+}
+
+.card-paragraph {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.card-paragraph-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Change color 0.041 ETH */
+.eth-icon {
+  color: hsl(178, 100%, 50%);
+  margin-right: 5%;
+}
+
+/* author avatar */
+img.avatar {
+  border: 2px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+  margin-right: 5%;
+}
+
+.credit-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+/* Change color of author name */
+span {
+  cursor: pointer;
+  color: hsl(0, 0%, 100%);
+}
+
+/* Change color of author name when hovering over it */
+span:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
